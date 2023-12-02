@@ -1,0 +1,270 @@
+/* backgrounds */
+.bg-styn-default {
+  background-color: var(--styn-default) !important;
+}
+.bg-styn-primary {
+  background-color: var(--styn-primary) !important;
+}
+.bg-styn-secondary {
+  background-color: var(--styn-secondary) !important;
+}
+.bg-styn-dark {
+  background-color: var(--styn-dark) !important;
+}
+.bg-styn-light {
+  background-color: var(--styn-light) !important;
+}
+
+/* texts */
+.text-styn-default {
+  color: var(--styn-default) !important;
+}
+.text-styn-primary {
+  color: var(--styn-primary) !important;
+}
+.text-styn-secondary {
+  color: var(--styn-secondary) !important;
+}
+.text-styn-dark {
+  color: var(--styn-dark) !important;
+}
+.text-styn-light {
+  color: var(--styn-light) !important;
+}
+
+/* font weights */
+.bold-200 {
+  font-weight: 200 !important;
+}
+.bold-300 {
+  font-weight: 300 !important;
+}
+.bold-400 {
+  font-weight: 400 !important;
+}
+.bold-500 {
+  font-weight: 500 !important;
+}
+.bold-600 {
+  font-weight: 600 !important;
+}
+.bold-700 {
+  font-weight: 700 !important;
+}
+.bold-800 {
+  font-weight: 800 !important;
+}
+.bold-900 {
+  font-weight: 900 !important;
+}
+
+/* fonts */
+
+.Poppins {
+  --font-secondary: "Poppins", sans-serif !important;
+}
+
+.Geologica {
+  --font-primary: "Geologica", sans-serif !important;
+}
+
+/* buttons */
+.btn {
+  border: 2px dashed #c2cad6;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--font-default);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+}
+.btn.btn-sm {
+  font-size: 1rem;
+  padding: 1rem 1.4rem;
+}
+
+.btn-styn-primary {
+  background-color: var(--styn-light);
+  color: var(--styn-dark);
+}
+
+.btn-styn-primary:hover {
+  background-color: var(--styn-primary);
+  color: var(--bs-white);
+}
+
+@media (min-width: 768px) {
+  .btn-styn-primary {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+/* banner service card */
+.banner-service-card {
+  margin-top: 60px;
+}
+.banner-service-card .col-6 {
+  border-radius: 10px;
+}
+
+.banner-service-card .col-6 .stats-item {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 10px;
+  border: 1px solid rgba(17, 12, 46, 0.15);
+  color: var(--styn-primary);
+}
+
+/* highlighted */
+.highlighted {
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transition: background-size 0.5s;
+}
+
+.highlighted.pink {
+  background-image: linear-gradient(
+    to top,
+    var(--styn-light-pink) 40%,
+    transparent 0
+  );
+}
+.highlighted.blue {
+  background-image: linear-gradient(
+    to top,
+    var(--styn-light-blue) 40%,
+    transparent 0
+  );
+}
+
+.highlighted.primary {
+  background-image: linear-gradient(
+    to top,
+    var(--styn-light-success) 45%,
+    transparent 0
+  );
+}
+
+.highlighted.yellow {
+  background-image: linear-gradient(
+    to top,
+    var(--styn-light-yellow) 40%,
+    transparent 0
+  );
+}
+
+/* page css */
+.pd40 {
+  padding: 40px 10px !important;
+}
+.pd50 {
+  padding: 50px 10px !important;
+}
+.pd60 {
+  padding: 60px 20px !important;
+}
+
+/* quote btn */
+.navbar .quote-btn {
+  font-size: 16px;
+  border: 2px dashed var(--styn-light-success);
+  border-radius: 10px;
+  position: relative;
+  color: var(--styn-default);
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.navbar .quote-btn:hover {
+  color: var(--styn-dark) !important;
+  background: var(--styn-light-success);
+}
+
+.cta-btn {
+  font-size: 16px;
+  border: 2px dashed var(--styn-light);
+  border-radius: 10px;
+  position: relative;
+  color: var(--styn-default);
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: inline-block;
+  padding: 12px 40px;
+  margin: 20px 20px 10px 20px;
+  margin-left: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.cta-btn:hover {
+  color: var(--styn-dark) !important;
+  background: var(--styn-light);
+}
+
+.logo-brand {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* tabs technologies */
+.technologies {
+  background-color: var(--styn-light);
+}
+.tab-details {
+  margin: 10px 20px;
+}
+
+.tab-details img {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+}
+.tab-details h6 {
+  font-weight: 700;
+}
+
+/* tabs contact form */
+.contact .php-email-form input {
+  border-radius: 8px;
+  font-weight: 500 !important;
+  font-size: 0.9rem;
+  height: 50px;
+  padding: 0.8rem 1rem;
+}
+
+.contact .php-email-form textarea {
+  border-radius: 8px;
+  font-weight: 500 !important;
+  font-size: 0.9rem;
+  padding: 0.8rem 1rem;
+}
+
+/* .contact .php-email-form input:hover,
+.contact .php-email-form textarea:hover {
+} */
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  background-color: var(--styn-light);
+  border-color: var(--styn-light);
+}
